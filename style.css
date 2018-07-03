@@ -1,15 +1,15 @@
-body
+body /*Mise en place de la police Google*/
 {
     font-family: 'Roboto', 'Arial', sans-serif;
 }
-#conteneur
+#conteneur /*Mise en place de la zone des liens en haut à droit*/
 {
     display: flex;
     justify-content: flex-end;
     color: red;
 }
 
-a
+a /*Modification de l'apparence des liens*/
 {
 	font-style: none;
 	color: grey;
@@ -17,7 +17,7 @@ a
     margin-right: 10px;
 }
 
-#buttonconnexion
+#buttonconnexion /*Mise en forme du boutton Connexion*/
  {
     background-color: #4885ed;
     color: white;
@@ -29,7 +29,7 @@ a
     border: none;
  }
 
-main
+main /*Mise en forme du corps*/
 {
     display: flex;
     flex-direction: column;
@@ -51,7 +51,7 @@ main
     box-shadow: 0px 2px 2px #D3D3D3;
     min-width: 480px;
     max-width: 600px;
-    height: 80px;
+    height: 55px;
     border-radius: 2px;
     display: flex;
     justify-content: space-between;
@@ -59,12 +59,12 @@ main
     margin:30px;
 
 }
-input
+input /*Formulaire de saisie à l'intérieur de recherche*/
 {
     display:flex;
     justify-content: center;
     width: 480px;
-    height: 80px;
+    height: 55px;
     border: none;
     background-color: transparent;
 }
