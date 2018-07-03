@@ -1,0 +1,184 @@
+body
+{
+    font-family: 'Roboto', 'Arial', sans-serif;
+}
+#conteneur
+{
+    display: flex;
+    justify-content: flex-end;
+    color: red;
+}
+
+a
+{
+	font-style: none;
+	color: grey;
+	text-decoration: blink;
+    margin-right: 10px;
+}
+
+#buttonconnexion
+ {
+    background-color: #4885ed;
+    color: white;
+    padding: 3px;
+    width: 100px;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 1px;
+    border: none;
+ }
+
+main
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    margin: 50px;
+}
+
+#logo
+{
+  display: flex;
+  justify-content: center;
+}
+
+#recherche
+{
+     border: 1px solid #DCDCDC;
+    box-shadow: 0px 2px 2px #D3D3D3;
+    min-width: 480px;
+    max-width: 600px;
+    height: 80px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:30px;
+
+}
+input
+{
+    display:flex;
+    justify-content: center;
+    width: 480px;
+    height: 80px;
+    border: none;
+    background-color: transparent;
+}
+
+
+#buttonsrecherche
+{
+  display: flex;
+justify-content: center;
+}
+
+#buttonconsulter
+ {
+    background-color: #4885ed;
+    color: white;
+    padding: 10px;
+    width: 200px;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 1px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    white-space: nowrap;
+ }
+
+ #buttonrappeler
+ {
+    background-color: white;
+    color: #4885ed;
+    padding: 10px;
+    width: 250px;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 1px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    white-space: nowrap;
+ }
+
+#buttonrecherche
+ {
+    background-color: rgb(218,222,221);
+    color: rgb(97,100,99);
+    padding: 10px;
+    width: 250px;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 1px;
+    border: none;
+    margin-left: auto;
+    margin-right: 10px;
+    white-space: nowrap;
+    }
+
+#buttonchance
+ {
+    background-color: rgb(218,222,221);
+    color: rgb(97,100,99);
+    padding: 10px;
+    width: 250px;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 1px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    white-space: nowrap;
+    }
+
+footer
+{
+position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+section
+{
+  display: flex;
+justify-content: space-between;
+padding: 10px;
+border-top: 1px solid white;
+}
+#France
+{
+    background-color: rgb(218,222,221);
+    color: rgb(97,100,99);
+padding: 10px;
+     border-top: 1px solid grey;
+}
+#baspage
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(218,222,221);
+
+     border-top: 1px solid grey;
+     padding: 10px;
+}
+#footerdroite
+{
+  background-color: rgb(218,222,221);
+    color: rgb(97,100,99);
+    text-align: right;
+
+}
+#footergauche
+{
+    text-align: left;
+background-color: rgb(218,222,221);
+    color: rgb(97,100,99);
+
+}
+
